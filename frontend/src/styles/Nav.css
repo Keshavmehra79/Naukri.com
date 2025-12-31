@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 60px;
+}
+
+#navul{
+    list-style:none;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lioful a{
+       text-decoration: none;
+       font-weight: bold;
+}
+
+
+#logoimg{
+    height: 80px;
+}
+
+#loginbtn a{
+    text-decoration: none;
+    color: white;
+}
+
+#loginbtn{
+    height: 30px;
+    width: 100px;
+    padding-top: 5px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(199, 37, 64);
+    color: white;
+}
+ 

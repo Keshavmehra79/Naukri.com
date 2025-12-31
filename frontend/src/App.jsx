@@ -4,8 +4,8 @@ import Layout from './Pages/Layout'
 import Jobs from './Pages/Jobs'
 import Compnies from './Pages/Compnies'
 import Service from './Pages/Service'
-import Login from './Pages/Login'
 import Home from './Pages/Home'
+import Signup from './Pages/Signup'
 
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
         <Route path='/jobs' element={<Jobs/>}/>
         <Route path='/compnies' element={<Compnies/>}/>
         <Route path='/service' element={<Service/>}/>
-        <Route path='/login' element={<Login/>}/>
+        <Route path='/signup' element={<Signup/>}/>
         
         </Route>
     </Routes>
