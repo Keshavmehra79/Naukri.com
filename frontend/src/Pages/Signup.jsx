@@ -4,7 +4,7 @@ function Signup() {
   return (
     <>
     <div class='h-120  flex justify-center items-center k'>
-         <div class=' h-98     w-3xs shadow-xs shadow-black'>
+         <div class=' h-98     w-3xs  shadow-black shadow-inner'>
     <h1 class='text-center text-2xl font-bold' >Sign up</h1>
     <p class='text-xs text-center'>Signup to continue</p>
     <form action="" class='text-center'>
