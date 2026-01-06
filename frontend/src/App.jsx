@@ -6,6 +6,7 @@ import Compnies from './Pages/Compnies'
 import Service from './Pages/Service'
 import Home from './Pages/Home'
 import Signup from './Pages/Signup'
+import Loginpage from './Pages/Loginpage'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path='/compnies' element={<Compnies/>}/>
         <Route path='/service' element={<Service/>}/>
         <Route path='/signup' element={<Signup/>}/>
+        <Route path='/loginpage' element={<Loginpage/>}/>
         
         </Route>
     </Routes>
