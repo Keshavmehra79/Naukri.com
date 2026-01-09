@@ -40,7 +40,6 @@ function Footer() {
             Email:mehrakeshav332@gmail.com<br></br>Contact:7909322992</p>
            </div>
 
-        <p className='display-none'>Disp</p>
             
     </footer>
     

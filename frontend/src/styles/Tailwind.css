@@ -10,3 +10,10 @@ border: 1px solid black;
 #footer{
     display: flex;
 }
+
+#loginbtn2{
+    display: block;
+    margin: auto;
+    margin-top:30px;
+    
+}
