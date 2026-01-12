@@ -7,6 +7,9 @@ import Service from './Pages/Service'
 import Home from './Pages/Home'
 import Signup from './Pages/Signup'
 import Loginpage from './Pages/Loginpage'
+import Admin from './Pages/Admin'
+import Recruiter from './Pages/Recruiter'
+import Jobseeker from './Pages/Jobseeker'
 
 
 function App() {
@@ -20,6 +23,9 @@ function App() {
         <Route path='/service' element={<Service/>}/>
         <Route path='/signup' element={<Signup/>}/>
         <Route path='/loginpage' element={<Loginpage/>}/>
+        <Route path='/adminpage' element={<Admin/>}/>
+        <Route path='/recruiter' element={<Recruiter/>}/>
+        <Route path='/jobseeker' element={<Jobseeker/>}/>
         
         </Route>
     </Routes>

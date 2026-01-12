@@ -1,11 +1,8 @@
 import React from 'react'
 
-const Home=()=> {
+function Home() {
   return (
-    <>
-    <h1>This is HomePage</h1>
-    
-    </>
+    <div>Home</div>
   )
 }
 

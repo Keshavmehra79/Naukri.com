@@ -1,8 +1,17 @@
-import React from 'react'
-import {Link} from 'react-router-dom';
+import React, { useState } from 'react'
+import {Link, useNavigate} from 'react-router-dom';
 import pic1 from '../assets/logo.png'
 
 const Nav=()=> {
+  const navigate=useNavigate();
+  const nav=()=>{
+    const signupdata=localStorage.getItem('signupdata');
+    if(!signupdata){
+      alert('Please create an account first')
+      navigate('/signup')
+    }
+  }
+
   return (
     <nav>
         <section id='nav'>
@@ -11,9 +20,12 @@ const Nav=()=> {
                 <li className='lioful'><Link to="/jobs">Jobs</Link></li>
                 <li className='lioful'><Link to="/compnies">Compnies</Link></li>
                 <li className='lioful'><Link to="/service">Service</Link></li>
-                <li id='loginbtn'><Link to="/signup">Register</Link></li>
+                <li id='loginbtn'onClick={nav}>Register</li>
             </ul>
         </section>
+
+        
+
     </nav>
   )
 }
